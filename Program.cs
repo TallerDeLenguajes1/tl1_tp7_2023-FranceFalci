@@ -4,6 +4,9 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        //hola
+        Calculadora valor = new();
+        valor.Sumar(10);
+
+        Console.WriteLine("resultado valor" + valor.Resultado);
     }
 }
